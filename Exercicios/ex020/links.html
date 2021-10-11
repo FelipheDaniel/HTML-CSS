@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+    /*
+    SELETORES PERSONALIZADOS
+        #   * id
+        .   *class
+        :   *pseud-class
+        ::  *pseud-element
+        >   *clildren
+    */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(255, 166, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkturquoise;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+        a::after {
+            content:none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+
+        <ul>
+            <li><a href="https://gustavoguanabara.github.io" target="blanck">Repositorio do github</li>
+            <li><a href="https://www.youtube.com/channel/UCg-5rBCXPkg6UiLM0mQ9y0g">canal do you tube</li>
+            <li><a href="https://www.youtube.com/channel/UCMmFs084WfSnZcWpzeB6eeA">canal de vini</li>
+        </ul>
+     
+
+</body>
+</html>
